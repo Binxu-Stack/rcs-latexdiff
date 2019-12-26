@@ -7,7 +7,7 @@ Then, you just have to compile the diff file using your favorite LaTeX compiler 
 
 Dependencies:
     * `latexdiff <http://www.ctan.org/tex-archive/support/latexdiff>`_ tool
-    * `Python <http://www.python.org/>`_ (2.7 at least)
+    * `Python3 <http://www.python.org/>`_ 
 
 Features:
     * Support of Git, SVN
