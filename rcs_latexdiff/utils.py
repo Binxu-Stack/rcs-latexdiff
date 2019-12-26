@@ -1,4 +1,4 @@
-from __future__ import print_function, absolute_import
+
 
 import subprocess
 import logging
@@ -41,9 +41,9 @@ def write_file(content, filename):
 
     """
     logger.debug("Writing content into %s" % filename)
-    if isinstance(content, unicode):
+    if isinstance(content, str):
         content = content.encode("utf-8")
-    with open(filename, 'w') as f:
+    with open(filename, 'wb') as f:
         f.write(content)
 
 def remove_latex_comments(content):
